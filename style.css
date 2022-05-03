@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: blue;
+}
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta h1 {
+    color: #F9FAF8;
+    size: 48px;
+    font-style: extra-bold;
+}
+
+.footer {
+    background-color: #1F2937;
+}
